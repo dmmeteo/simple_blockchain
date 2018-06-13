@@ -22,6 +22,6 @@ class Block:
         )
 
         sha = h.sha256()
-        sha.update(string_data.encode('utf-8'))
+        sha.update(string_data.encode("utf-8"))
 
         return sha.hexdigest()
